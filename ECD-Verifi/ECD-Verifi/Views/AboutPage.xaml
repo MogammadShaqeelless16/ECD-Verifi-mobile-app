@@ -54,7 +54,9 @@
                HorizontalOptions="Center"
                VerticalOptions="Center" />
 
- //
+
+            <!-- row 2-->
+
             <BoxView Grid.Row="2"
                  Grid.Column="0"
                  Color="Red" />
@@ -86,7 +88,7 @@
             
             
             
-            
+            <!-- row 3-->
             
             <BoxView Grid.Row="3"
                  Grid.ColumnSpan="2"
