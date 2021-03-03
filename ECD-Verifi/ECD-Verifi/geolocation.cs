@@ -1,5 +1,5 @@
 // tremaines code 
-using system; 
+/*using system; 
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,7 +18,8 @@ namespace LocationApp
      }
      protected override void Onstart()
      {
-     
-     proteted override void Onsleep()
+        // Handle when your app starts
      }
-     
+     protected override void Onsleep()
+     }
+     */
