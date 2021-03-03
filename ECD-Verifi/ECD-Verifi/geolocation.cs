@@ -18,8 +18,8 @@ namespace LocationApp
      }
      protected override void Onstart()
      {
-     
-     proteted override void Onsleep()
+        // Handle when your app starts
+     }
+     protected override void Onsleep()
      }
      
-*/
