@@ -4,9 +4,15 @@
              x:Class="ECD-Verifi.Views.Login">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <StackLayout x:Name="LoginPanel">
+                    <Button Clicked="LoginClicked" Text="Login"></Button>
+                    <Label x:Name="ErrorLabel" TextColor="#FF0000"></Label>
+                </StackLayout>
+                <StackLayout x:Name="LogoutPanel" IsVisible="False" Orientation="Horizontal">
+                    <Label x:Name="LoggedInLabel" ></Label>
+                    <Button Clicked="LogoutClicked" Text="Logout"></Button>
+                </StackLayout>
+     
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
