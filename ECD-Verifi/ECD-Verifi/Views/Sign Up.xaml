@@ -3,10 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ECD-Verifi.Views.Sign_Up">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Entry Placeholder="First Name" x:Name="First"/>
+            <Entry Placeholder="Last Name" x:Name="Last"/>
+            <Entry Placeholder="Email" x:Name="Email"/>
+            <Entry Placeholder="Password" x:Name="Pass"/>
+            <Entry Placeholder="Confirm Password" x:Name="Confirm"/>
+            <Button Text="Register" CornerRadius="3" x:Name="Register" Clicked="Register_Clicked"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
