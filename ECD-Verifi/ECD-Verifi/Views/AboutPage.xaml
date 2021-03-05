@@ -32,14 +32,14 @@
 
 
             <!-- row 0-->
-            <Button Color="Green" 
+            <Button  
                     BorderRadius="20"/>
         <Label Text="Row 0, Column 0"
                HorizontalOptions="Center"
                VerticalOptions="Center" />
             <Button Grid.Column="1"
                  BorderRadius="20"
-                 Color="Blue" />
+                  />
         <Label Grid.Column="1"
                Text="Row 0, Column 1"
                HorizontalOptions="Center"
@@ -49,7 +49,7 @@
             <!-- row 1-->
             <Button Grid.Row="1"
                     BorderRadius="20"
-                 Color="Teal" />
+                  />
         <Label Grid.Row="1"
                Text="Row 1, Column 0"
                HorizontalOptions="Center"
@@ -57,7 +57,7 @@
             <Button Grid.Row="1"
                  Grid.Column="1"
                     BorderRadius="20"
-                 Color="Purple" />
+                  />
         <Label Grid.Row="1"
                Grid.Column="1"
                Text="Row1, Column 1"
@@ -70,7 +70,7 @@
             <Button Grid.Row="2"
                  Grid.Column="0"
                     BorderRadius="20"
-                 Color="Red" />
+                 />
             <Label Grid.Row="2"
                Grid.Column="0"
                Text="Row 2, Columns 0"
@@ -80,7 +80,7 @@
             <Button Grid.Row="2"
                  Grid.Column="1"
                     BorderRadius="20"
-                 Color="Red" />
+                  />
             <Label Grid.Row="2"
                Grid.Column="1"
                Text="Row 2, Columns 1"
@@ -92,7 +92,7 @@
             <Button Grid.Row="2"
                  Grid.Column="2"
                     BorderRadius="20"
-                 Color="Red" />
+                />
         <Label Grid.Row="2"
                Grid.Column="2"
                Text="Row 2, Columns 2"
@@ -105,7 +105,7 @@
 
             <Button Grid.Row="3"
                  Grid.ColumnSpan="2"
-                 Color="Red" />
+                  />
 
             <Label Grid.Row="3"
                Grid.ColumnSpan="2"

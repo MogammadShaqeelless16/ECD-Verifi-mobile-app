@@ -9,8 +9,8 @@ using Android.OS;
 
 namespace ECD_Verifi.Droid
 {
-    [Activity(Label = "ECD_Verifi", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation | ConfigChanges.UiMode | ConfigChanges.ScreenLayout | ConfigChanges.SmallestScreenSize )]
-    public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
+    [Activity(Label = "ECD_Verifi", Icon = "@mipmap/icon", Theme = "@style/MainTheme". MainLauncher = true, Icon = "@drawable/icon",Theme "@style/Theme.AppCompat.Light.NoActionBar" )]
+    public class TargetActivity : AppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -28,6 +28,7 @@ namespace ECD_Verifi.Droid
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
 
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+            SetContentView(Resources.Layout.Target);
         }
     }
 }
