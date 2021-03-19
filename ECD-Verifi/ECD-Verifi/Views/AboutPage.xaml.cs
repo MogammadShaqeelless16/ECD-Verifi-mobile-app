@@ -1,9 +1,6 @@
-﻿using System;
-using System.ComponentModel;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+﻿using Xamarin.Forms;
 
-namespace ECD_Verifi.Views
+namespace ECDVerifi.Views
 {
     public partial class AboutPage : ContentPage
     {

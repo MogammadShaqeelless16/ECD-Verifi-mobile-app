@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ECD_Verifi.Views.ItemsPage"
+             x:Class="ECDVerifi.Views.ItemsPage"
              Title="{Binding Title}"
-             xmlns:local="clr-namespace:ECD_Verifi.ViewModels"  
-             xmlns:model="clr-namespace:ECD_Verifi.Models"  
+             xmlns:local="clr-namespace:ECDVerifi.ViewModels"  
+             xmlns:model="clr-namespace:ECDVerifi.Models"  
              x:Name="BrowseItemsPage">
 
     <ContentPage.ToolbarItems>
@@ -20,7 +20,7 @@
                 SelectionMode="None">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <StackLayout Padding="10" x:DataType="model:Item">
+                    <StackLayout Padding="10" x:DataType= "model:Item">
                         <Label Text="{Binding Text}" 
                             LineBreakMode="NoWrap" 
                             Style="{DynamicResource ListItemTextStyle}" 

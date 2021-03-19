@@ -1,12 +1,12 @@
-﻿using ECD_Verifi.Models;
-using ECD_Verifi.Services;
+﻿using ECDVerifi.Models;
+using ECDVerifi.Services;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using Xamarin.Forms;
 
-namespace ECD_Verifi.ViewModels
+namespace ECDVerifi.ViewModels
 {
     public class BaseViewModel : INotifyPropertyChanged
     {

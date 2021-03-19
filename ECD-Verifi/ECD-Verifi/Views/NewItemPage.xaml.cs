@@ -1,17 +1,11 @@
-﻿using ECD_Verifi.Models;
-using ECD_Verifi.ViewModels;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using ECDVerifi.ViewModels;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
-namespace ECD_Verifi.Views
+namespace ECDVerifi.Views
 {
     public partial class NewItemPage : ContentPage
     {
-        public Item Item { get; set; }
-
+        public int Item { get; set; }
         public NewItemPage()
         {
             InitializeComponent();

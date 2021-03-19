@@ -1,20 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace ECD-Verifi.Views
+namespace ECDVerifi.Views
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-public partial class Calendar : ContentPage
-{
-    public Calendar()
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class Calendar : ContentPage
     {
-        InitializeComponent();
+        public Calendar()
+        {
+            InitializeComponent();
+        }
     }
-}
 }

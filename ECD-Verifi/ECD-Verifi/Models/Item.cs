@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace ECD_Verifi.Models
+﻿namespace ECDVerifi.Models
 {
     public class Item
     {

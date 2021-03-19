@@ -1,10 +1,8 @@
-﻿using ECD_Verifi.Models;
-using System;
+﻿using System;
 using System.Diagnostics;
-using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace ECD_Verifi.ViewModels
+namespace ECDVerifi.ViewModels
 {
     [QueryProperty(nameof(ItemId), nameof(ItemId))]
     public class ItemDetailViewModel : BaseViewModel

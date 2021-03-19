@@ -14851,7 +14851,10 @@ namespace ECD_Verifi.Droid
 			public const int Tabbar = 2131427398;
 			
 			// aapt resource value: 0x7F0B0047
-			public const int Toolbar = 2131427399;
+			public const int Target = 2131427399;
+			
+			// aapt resource value: 0x7F0B0048
+			public const int Toolbar = 2131427400;
 			
 			static Layout()
 			{

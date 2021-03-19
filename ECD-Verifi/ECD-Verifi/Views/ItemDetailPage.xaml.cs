@@ -1,8 +1,7 @@
-﻿using ECD_Verifi.ViewModels;
-using System.ComponentModel;
+﻿using ECDVerifi.ViewModels;
 using Xamarin.Forms;
 
-namespace ECD_Verifi.Views
+namespace ECDVerifi.Views
 {
     public partial class ItemDetailPage : ContentPage
     {

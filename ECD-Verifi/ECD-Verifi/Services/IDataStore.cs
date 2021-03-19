@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace ECD_Verifi.Services
+namespace ECDVerifi.Services
 {
     public interface IDataStore<T>
     {

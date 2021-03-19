@@ -1,11 +1,8 @@
-﻿using ECD_Verifi.Models;
+﻿using ECDVerifi.Models;
 using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Windows.Input;
 using Xamarin.Forms;
 
-namespace ECD_Verifi.ViewModels
+namespace ECDVerifi.ViewModels
 {
     public class NewItemViewModel : BaseViewModel
     {

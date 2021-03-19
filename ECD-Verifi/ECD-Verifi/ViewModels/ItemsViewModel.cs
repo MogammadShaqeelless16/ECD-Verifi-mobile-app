@@ -1,12 +1,12 @@
-﻿using ECD_Verifi.Models;
-using ECD_Verifi.Views;
+﻿using ECDVerifi.Models;
+using ECDVerifi.Views;
 using System;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace ECD_Verifi.ViewModels
+namespace ECDVerifi.ViewModels
 {
     public class ItemsViewModel : BaseViewModel
     {

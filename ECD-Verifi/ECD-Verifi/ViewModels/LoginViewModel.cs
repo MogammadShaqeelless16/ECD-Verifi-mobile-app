@@ -1,10 +1,7 @@
-﻿using ECD_Verifi.Views;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using ECDVerifi.Views;
 using Xamarin.Forms;
 
-namespace ECD_Verifi.ViewModels
+namespace ECDVerifi.ViewModels
 {
     public class LoginViewModel : BaseViewModel
     {

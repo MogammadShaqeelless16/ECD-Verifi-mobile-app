@@ -1,10 +1,8 @@
-﻿using ECD_Verifi.Services;
-using ECD_Verifi.Views;
-using System;
+﻿using ECDVerifi.Services;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+using Application = Xamarin.Forms.Application;
 
-namespace ECD_Verifi
+namespace ECDVerifi
 {
     public partial class App : Application
     {

@@ -1,10 +1,10 @@
-﻿using ECD_Verifi.Models;
+﻿using ECDVerifi.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ECD_Verifi.Services
+namespace ECDVerifi.Services
 {
     public class MockDataStore : IDataStore<Item>
     {

@@ -1,10 +1,8 @@
-﻿using ECD_Verifi.ViewModels;
-using ECD_Verifi.Views;
+﻿using ECDVerifi.Views;
 using System;
-using System.Collections.Generic;
 using Xamarin.Forms;
 
-namespace ECD_Verifi
+namespace ECDVerifi
 {
     public partial class AppShell : Xamarin.Forms.Shell
     {
